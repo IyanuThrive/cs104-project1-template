@@ -1,5 +1,5 @@
 # [Your Project Name Here]
-> A short one-line tagline for your quiz or questionnaire
+> A short one-line tagline for your quiz or questionnairen
 
 ## Overview
 > **DELETE AND REPLACE ME:** Describe your program's focus, the type of
