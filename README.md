@@ -73,47 +73,86 @@
 > 
 
 ## Variables
-> answer: asks and holds user's current input each time you ask a question 
-> managerial_finance_points: tracks and accumulate point for the managerial finance segment
-> financial_markets_points: tracks and accumulate point for the financial markets segment
-> investments_points: tracks and accumulate point for the investments segment
-> total_points: this will accumulate the score of the managerial_finance_points,
+> answer(str): asks user's current input each time you ask a question 
+> q1_answer: holds question 1 answer
+> q2_answer: holds question 2 answer
+> q3_answer: holds question 3 answer
+> q4_answer: holds question 4 answer
+> q5_answer: holds question 5 answer
+> q6_answer: holds question 6 answer
+> continue_quiz(bool): sets the stage for a while loop
+> cont: asks the user if they want to continue the quiz after every question
+> multiple variables to track scores are needed here because scores are given for each segment
+> managerial_finance_points(int): tracks and accumulate point for the managerial finance segment
+> financial_markets_points(int): tracks and accumulate point for the financial markets segment
+> investments_points(int): tracks and accumulate point for the investments segment
+> total_points(int): this will accumulate the score of the managerial_finance_points,
 > financial_markets_points and investments_points.
 > 
-> **DELETE AND REPLACE ME:** List the variables your program uses. For
-> each one, note what it stores and why you structured it that way,
-> especially for variables tracking results, explain whether a single
-> variable or multiple variables makes sense for your program's logic.
->
-> Example:
-> - `score` (int): tracks total quiz points. A single variable works here
->   since results are cumulative and only one final score matters.
-> - `decade_1920s_points`, `decade_1960s_points`, `decade_1980s_points`
->   (int): separate variables needed since multiple decades can tie for
->   highest score, one combined variable couldn't represent that.
-> - `user_choice` (str or int): stores the user's response to a question,
->   compared against expected options to decide which branch of the
->   conditional runs.
+> 
 
 ## Conditional Logic Outline
-> **DELETE AND REPLACE ME:** Outline every conditional statement in your
-> program, in the order they appear. For each one, describe it in plain
-> language (no code needed): which question/condition it relates to,
-> each branch (`if`/`elif`/`else`), the exact condition that triggers
-> each branch, the action(s) that happen in each branch, and note any
-> nested conditionals and why they're nested.
+> Conditional Statement 1:
+> -if triggers when the user's input equals "b" (WACC, the correct answer). Displays
+> "Correct!" and add a point to managerial_finance_points.
+> -elif triggers when the input is "a", "c", or "d" (a valid letter, but not the correct one).
+> then displays "Incorrect, the answer is b."
+> -else branch — triggers when the input is anything other than a, b, c, or d. Action: display "You
+> inputted a wrong value, try again," then the question is presented again.
+> Condition Statement 1a: 
+> --if when the user responds "yes" to continuing, displays total managerial finance point
+> Action: move on to Question 2.
+> --else branch — triggers when the user responds "no" (or anything not "yes"). Action: display the
+> user's current total points and end the quiz early. (cont. is asked after each valid response)
 >
-> Example:
-> - **Conditional statement 1** — related to "Which of the following
->   painters is an Impressionist? 1-Monet 2-Warhol 3-Rembrandt"
->   - `if` response is 1 (Monet): display congratulatory message,
->     increment `score` by 1
->   - `else`: display incorrect message and explain the correct answer
+> Conditional Statement 2:
+> -if answer is "a" (sales less operating costs and taxes less required investment in operating
+> capital): display "Correct!", increment managerial_finance_points
+> -elif answer is "b", "c", or "d": display "Incorrect, the answer is a"
+> -else: display "You inputted a wrong value, try again," re-ask the question
+> Conditional Statement 2a:
+> --if "yes", displays total managerial finance points: move to Question 3
+> (end of Managerial Finance segment);
+> --else: display current total points and end. Nested for the same reason as above.
 >
-> - **Conditional statement 2** — reveals final results based on `score`
->   - `if` score is 3: display high-knowledge message
->   - `elif` score is 1 or 2: display some-knowledge message
->   - `else`: display message encouraging the user to learn more
+> Conditional Statement 3:
+> -if answer is "a" (six-month T-bill): display "Correct!", increment financial_markets_points
+> -elif answer is "b", "c", or "d": display "Incorrect, the answer is a"
+> -else: display "You inputted a wrong value, try again," re-ask the question
+> Conditional Statement 3a:
+> --if "yes", displays total financial markets points: move to Question 4;
+> --else: display current total points and end.
+>
+> Conditional Statement 4:
+> -if answer is "a" (decreased demand; inward shift): display "Correct!", increment
+> financial_markets_points
+> -elif answer is "b", "c", or "d": display "Incorrect, the answer is a"
+> -else: display "You inputted a wrong value, try again," re-ask the question
+> Conditional Statements 4a:
+> --if "yes", displays total financial markets points: move to Question 5
+> (end of Financial Markets segment);
+> --else: display current total points and end.
+>
+> Conditional Statement 5:
+> -if answer is "d" (financial asset): display "Correct!", increment investments_points
+> -elif answer is "a", "b", or "c": display "Incorrect, the answer is d"
+> -else: display "You inputted a wrong value, try again," re-ask the question
+> Conditional Statement 5a:
+> --if "yes", displays total investments points: move to Question 6;
+> --else: display current total points and end.
+>
+> Conditional Statement 6:
+> -if answer is "b" (systematic risk): display "Correct!", increment investments_points
+> and display current investment points and total_points
+> -elif answer is "a", "c", or "d": display "Incorrect, the answer is b",
+> and display current investment points and total_points
+> -else: display "You inputted a wrong value, try again," re-ask the question
+>
+> Conditional Statement 7:
+> if total_points is high (e.g., 5–6): display a top-tier message (e.g., "Expert level knowledge!")
+> elif total_points is moderate (e.g., 3–4): display a mid-tier message (e.g., "Solid foundational
+> knowledge")
+> else (total_points is low, e.g., 0–2): display a message encouraging the user to learn more
 
 ## How to Run
 1. Clone this repo
