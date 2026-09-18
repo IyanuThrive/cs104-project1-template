@@ -1,5 +1,5 @@
-# [Your Project Name Here]
-# Author: [Your Name]
+# Finance Knowledge Quiz
+# Author: Iyanuoluwa Adekoya
 # A quiz/questionnaire program built for CS 104 Project 1
 
 # TODO: Define your variables here.
