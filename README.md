@@ -1,5 +1,5 @@
-# [Your Project Name Here]
-> Finance Knowledge quiz
+# [Finance Knowledge Quiz]
+> Test your finance knowledge to know your level
 
 ## Overview
 >> This program is a quiz designed to ask users finance question from
