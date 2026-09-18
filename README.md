@@ -33,7 +33,7 @@
 > Question 2: 
 > The formula for determining a firm's free cash flows is:
 > a. sales less operating costs and taxes less required investments in operating capital.
-> d. the required investments in operating capital divided by net income.
+> b. the required investments in operating capital divided by net income.
 > c. sales less operating costs and taxes.
 > d. sales less operating costs.
 >
@@ -58,20 +58,28 @@
 >
 > Question 5:
 > A corporate bond is an example of a?
-> a. diversified asset.
-> b. real asset.
-> c. capital gain.
-> d. financial asset. 
+> a. diversified asset
+> b. real asset
+> c. capital gain
+> d. financial asset 
 >
-> Questtion 6:
+> Question 6:
+> Return volatility that is associated with the overall market is called
+> a. diversifiable risk.	
+> b. systemic risk.	
+> c. correlated risk.	
+> d. liquidity risk.
+>
 > 
-> Example:
-> Which of the following painters is an Impressionist?
-> 1. Monet
-> 2. Warhol
-> 3. Rembrandt
 
 ## Variables
+> answer: asks and holds user's current input each time you ask a question 
+> managerial_finance_points: tracks and accumulate point for the managerial finance segment
+> financial_markets_points: tracks and accumulate point for the financial markets segment
+> investments_points: tracks and accumulate point for the investments segment
+> total_points: this will accumulate the score of the managerial_finance_points,
+> financial_markets_points and investments_points.
+> 
 > **DELETE AND REPLACE ME:** List the variables your program uses. For
 > each one, note what it stores and why you structured it that way,
 > especially for variables tracking results, explain whether a single
