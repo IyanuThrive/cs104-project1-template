@@ -81,7 +81,7 @@
 > q5_answer: holds question 5 answer
 > q6_answer: holds question 6 answer
 > continue_quiz(bool): sets the stage for a while loop
-> cont: asks the user if they want to continue the quiz after every question
+> cont: asks the user if they want to continue the quiz after every question (1-5), but not question 6
 > multiple variables to track scores are needed here because scores are given for each segment
 > managerial_finance_points(int): tracks and accumulate point for the managerial finance segment
 > financial_markets_points(int): tracks and accumulate point for the financial markets segment
@@ -147,7 +147,10 @@
 > -elif answer is "a", "c", or "d": display "Incorrect, the answer is b",
 > and display current investment points and total_points
 > -else: display "You inputted a wrong value, try again," re-ask the question
->
+> Conditional Statement 6a: 
+> Unlike Questions 1–5, Question 6 has no nested continue prompt, since there is no further question
+> to move to — the program proceeds directly to final scoring.
+> 
 > Conditional Statement 7:
 > if total_points is high (e.g., 5–6): display a top-tier message (e.g., "Expert level knowledge!")
 > elif total_points is moderate (e.g., 3–4): display a mid-tier message (e.g., "Solid foundational
