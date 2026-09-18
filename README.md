@@ -22,25 +22,30 @@
 
 ## Sample Questions and Responses
 > Managerial Finance
+>
 > Question 1:
 > Which of the following is an element in calculating the present value of future cash flows?
 > a. Standard Deviation
 > b. Weighted Average Cost of Capital
 > c. Marginal Tax
 > d. Inflation
+>
 > Question 2: 
 > The formula for determining a firm's free cash flows is:
 > a. sales less operating costs and taxes less required investments in operating capital.
 > d. the required investments in operating capital divided by net income.
 > c. sales less operating costs and taxes.
 > d. sales less operating costs.
+>
 > Financial Markets
+>
 > Question 3:
 > Which of the following is a money market security?
 > a. six-month treasury bill
 > b. municipal bond
 > c. mortgage
 > d. corporate bond	
+>
 > Questiion 4:
 > As a result of less favorable economic conditions, there is a(n) ____ demand for loanable funds,
 > causing an ____ shift in the demand curve.
@@ -48,13 +53,16 @@
 > b. decreased; outward
 > c. increased; outward
 > d. increased; inward
+>
 > Investments
+>
 > Question 5:
 > A corporate bond is an example of a?
 > a. diversified asset.
 > b. real asset.
 > c. capital gain.
 > d. financial asset. 
+>
 > Questtion 6:
 > 
 > Example:
