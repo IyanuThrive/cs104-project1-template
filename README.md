@@ -2,14 +2,23 @@
 > A short one-line tagline for your quiz or questionnairen
 
 ## Overview
-> **DELETE AND REPLACE ME:** Describe your program's focus, the type of
-> program it is (quiz, personality test, or recommendation tool), and the
-> final output a user will receive. Make it clear how user input and
-> conditional logic work together to produce that result.
->
-> Example: "This program quizzes users on Impressionist art. Based on
-> their answers, users earn points, and their final score determines
-> their level of knowledge on the topic."
+>> This program is a quiz designed to ask users finance question from
+> different topics like investments, financial markets and managerial finance.
+> The quiz will be broken down into 3 segments for the 3 topics and the total points will be given
+> to users at the end of each segment, then the overall points will be displayed after the three
+> segments are done.
+> How this works is, users will be given a closed ended question (options available).
+> They will be asked to pick from 4 options, a, b, c, and d.
+> Conditional statements: If they get it right (if the answer is a), "correct!" will be displayed, and
+> the option to moveto the next question will appear (yes/no).
+> If they choose to continue the next question appears.
+> Else, their overall point with be displayed as calculated.
+> Elif, they got the question wrong (b, c, or d), it will display "incorrect, the answer is {}"
+> Then it gives them the option to move to the next question with a yes/no question.
+> Else, if the input they give is not (a, b, c or d), it will display "you imputed a wrong value,
+> try again, and it gives them the question again until they put in a correct value.
+> The total score is then calculated and tiers to knowledge will be given at the end of the quiz.
+> 
 
 ## Sample Questions and Responses
 > **DELETE AND REPLACE ME:** List at least five questions you'll ask the
