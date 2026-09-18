@@ -1,5 +1,5 @@
 # [Your Project Name Here]
-> A short one-line tagline for your quiz or questionnairen
+> Finance Knowledge quiz
 
 ## Overview
 >> This program is a quiz designed to ask users finance question from
