@@ -21,7 +21,12 @@
 > 
 
 ## Sample Questions and Responses
-> **DELETE AND REPLACE ME:** List at least five questions you'll ask the
+> Managerial Finance
+> Question 1: Which of the following is an element in calculating the present value of future cash flows
+> a. Standard Deviation
+> b. Weighted Average Cost of Capital
+> c. Marginal Tax
+> d. Interest Rates
 > user, along with the possible responses for each. Keep every question
 > closed-ended (numbered options or yes/no) so each response can be
 > handled directly by an `if`, `elif`, or `else` statement.
